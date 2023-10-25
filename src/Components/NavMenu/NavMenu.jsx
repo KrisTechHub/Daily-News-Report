@@ -1,5 +1,6 @@
 import React from "react";
 import {
+    Card,
     Navbar,
     Collapse,
     Typography,
@@ -143,7 +144,14 @@ const NavMenu = () => {
                         </div>
                     </Collapse>
                 </Navbar>
-                
+
+            <Card className="mb-12 overflow-hidden">
+                <img
+                    alt="nature"
+                    className="h-[32rem] w-full object-cover object-center"
+                    src="https://images.unsplash.com/photo-1581092787765-e3feb951d987?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
+            </Card>
         </div>
     );
 };

@@ -15,8 +15,10 @@ const NewsData = () => {
 
     return (
         <div className='news__data__main py-8 lg:py-20'>
-            <h1 className='text-2xl lg:text-left text-center lg:text-3xl font-bold mb-1'>All News Data</h1>
-            <p className='mb-5'>{new Date().toLocaleString() + ""}</p>
+            <div className='lg:text-left text-center'>
+                <h1 className='text-2xl lg:text-3xl font-bold mb-1'>All News Data</h1>
+                <p className='mb-5 text-sm'>{new Date().toLocaleString() + ""}</p>
+            </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
                 {
                     newsData.map(data => 
