@@ -36,7 +36,7 @@ const NavMenu = () => {
                 className="p-1 font-normal"
             >
                 <a href="#" className="flex items-center">
-                    Account
+                    Channels
                 </a>
             </Typography>
             <Typography
@@ -46,7 +46,7 @@ const NavMenu = () => {
                 className="p-1 font-normal"
             >
                 <a href="#" className="flex items-center">
-                    Blocks
+                    Radio
                 </a>
             </Typography>
             <Typography
@@ -56,7 +56,7 @@ const NavMenu = () => {
                 className="p-1 font-normal"
             >
                 <a href="#" className="flex items-center">
-                    Docs
+                    Newspaper
                 </a>
             </Typography>
         </ul>
@@ -82,14 +82,14 @@ const NavMenu = () => {
                                     size="sm"
                                     className="hidden lg:inline-block"
                                 >
-                                    <span>Log In</span>
+                                    <span>Socials</span>
                                 </Button>
                                 <Button
                                     variant="gradient"
                                     size="sm"
                                     className="hidden lg:inline-block"
                                 >
-                                    <span>Sign in</span>
+                                    <span>Watch Live</span>
                                 </Button>
                             </div>
                             <IconButton

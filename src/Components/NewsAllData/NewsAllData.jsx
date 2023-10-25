@@ -3,17 +3,16 @@ import {
     CardHeader,
     CardBody,
     CardFooter,
-    Typography,
-    Avatar,
-    Tooltip,
+    Typography
 } from "@material-tailwind/react";
+import './NewsAllData.css'
 
 const NewsAllData = ({data}) => {
-    const { newsCategory, newsDescription, newsPreviewImage, newsTitle, _id } = data;
+    const { newsCategory, newsDescription, newsPreviewImage, newsTitle } = data;
 
     return (
-        <Card className="max-w-[24rem] overflow-hidden mx-1">
-            <CardHeader floated={false} shadow={false} color="transparent" className="m-0 rounded-none" >
+        <Card className="max-w-[24rem] overflow-hidden mx-1 my-1">
+            <CardHeader floated={false} shadow={false} color="transparent" className="m-0 rounded-none newsImg" >
                 <img src={newsPreviewImage} alt={newsTitle} />
             </CardHeader>
 
